@@ -24,10 +24,10 @@ Code Excecution
  
 1) Run the flash triggering routine\
 	sudo ./SynchedFlash 2000 1000 15\
-2000 is source 1 exposure, 1000 is source 2 exposure and 15 is the framee rate
+2000 is source1 exposure, 1000 is source2 exposure and 15 is the framee rate of the camera
 
 2) Run the camera script\
-sudo /SynchedFlash 2000 1000 15\
+sudo ./raspivid_Frex
 
 :)
 
