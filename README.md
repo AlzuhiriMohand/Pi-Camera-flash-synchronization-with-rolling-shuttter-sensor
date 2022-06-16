@@ -22,7 +22,7 @@ where $fps$ is the frame rate and $T_{ex}$ is the sensor exposure time. The came
 
 Code Excecution
  
-Run the flash triggering routine
+Run the flash triggering routine\
 	sudo ./SynchedFlash 2000 1000 15
 2000 is source 1 exposure, 1000 is source 2 exposure and 15 is the framee rate
 
