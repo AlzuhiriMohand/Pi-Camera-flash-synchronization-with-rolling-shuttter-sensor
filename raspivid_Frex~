@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+W=2592
+H=972
+FPS=7
+SS=50000
+T=0
+Iso=800
+Sa=0
+vcdbg set awb_mode 0
+echo "The video will start recording, press x to exit"
+raspividyuv -k -v -3d sbs -w $W -h $H -fps $FPS   -ss $SS   -t $T -i pause  -p 10,500,960,320  -o /media/pi/picoS/DatamodelCiron.data 
+
+

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#W=6560
+W=3296
+#H=2464
+H=1232
+FPS=4
+SS=62000
+T=0
+Iso=800
+ 
+vcdbg set awb_mode 0
+echo "The video will start recording, press x to exit"
+raspividyuv -k -v -3d sbs -w $W -h $H -fps $FPS   -ss $SS   -t $T -i pause  -p 10,50,1280,480 -o '/media/pi/New Volume/StereoTest3.data' 
+ 
