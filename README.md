@@ -19,4 +19,12 @@ $$
 	
 where $fps$ is the frame rate and $T_{ex}$ is the sensor exposure time. The camera sensor is started with all initial parameters regarding the exposure time, frames per second, and digital and analog gain. An external function is created to monitor the camera signals and trigger the projector excitation. Figure a shows a flow diagram of the recording and triggering algorithm. $S_t$ is a status flag with values that range from 0 to R, and R is the ratio between the number of projector and LED frames. $x_1$ and $y_1$ are the delay times for the projector (Proj.) and LED respectively while $x_2$ and $y_2$ are the exposure times for the projector and the LED respectively. Figure b shows the timing diagram of the camera acquisition signal and the projector excitation signal produced by the acquisition platform. The triggering circuit follows the falling edge from the camera and alternates between the projector and the white LED illumination. Different pulse widths were used during the experiment to provide precise control over the sensor exposure because the SL projector and the white light source have different illumination powers.
 	
+
+Code Excecution
  
+Run the flash triggering routine
+	sudo ./SynchedFlash 2000 1000 15
+2000 is source 1 exposure, 1000 is source 2 exposure and 15 is the framee rate
+
+
+

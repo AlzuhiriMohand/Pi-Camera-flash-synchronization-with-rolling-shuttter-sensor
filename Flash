@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-sudo ./gpio_alert_mod2 1000000
