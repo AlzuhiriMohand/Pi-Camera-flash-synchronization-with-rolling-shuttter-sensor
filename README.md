@@ -29,7 +29,7 @@ Code Excecution
 2) Run the camera script\
 sudo ./raspivid_Frex
 
-:)
+Enjoy :smiley:
 
 
 
