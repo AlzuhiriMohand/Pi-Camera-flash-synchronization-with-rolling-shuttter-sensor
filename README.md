@@ -19,6 +19,7 @@ sudo ./raspivid_Frex
 Enjoy :smiley:
 
 To cite this work; use the following bibliography:
+
 @phdthesis{alzuhiri2022multi,
   title={Multi-Modality Nondestructive Evaluation Techniques for Inspection of Plastic and Composite Pipeline Networks},
   author={Alzuhiri, Mohand},
