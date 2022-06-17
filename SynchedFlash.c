@@ -3,8 +3,8 @@
    $ gcc -O6 -o SynchedFlash SynchedFlash.c -lpigpio -lrt -lpthread
 
    TO excecute ..
-   * sudo ./test 25000 20000
-   * sudo ./test ProjExpo   LedExpo
+   * sudo ./SynchedFlash 25000       20000    15
+   * sudo ./SynchedFlash ProjExpo   LedExpo   FPS
 */
 #include <stdio.h>
 #include <stdlib.h>
