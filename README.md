@@ -3,7 +3,7 @@
  
  The code was implemented to provide  1) Allow synchronized acquisition by alternating between the SL and white LED, 2) Solve rolling shutter problem and thereby reduce spatial distortion during the sensor movement, 3) Better power and thermal efficiency due to the smaller working time for the projection, and 4) Reduce motion blur due to the faster shutter speeds when the flash power is excited and concentrated in a short time, and finaly 5) Very tight stereo synchronization.
  
-This code was inspired by the work done by Hermann-SW on simulated global in Pi cameras. You check his work and the modifications required for the pi registery  from the following link: https://github.com/Hermann-SW/Raspberry_v1_camera_global_external_shutter
+This code was inspired by the work done by Hermann-SW on simulated global in Pi cameras. You can check his work and the modifications required for the pi registery  from the following link: https://github.com/Hermann-SW/Raspberry_v1_camera_global_external_shutter
 
 If you are interested in a scientific explanation of the process, you can check section 4.2 of my thesis (don't hesitate to shoot me a message if you found any errors or mistakes in the thesis report). A compressed version of the thesis is available from the following link: https://github.com/AlzuhiriMohand/AlzuhiriMohand/blob/main/Multi-Modality_Nondestructive__compressed.pdf
 
