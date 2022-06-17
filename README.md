@@ -5,7 +5,7 @@
  
 This code was inspired by the work done by Hermann-SW on simulated global in Pi cameras. You check his work and the modifications required for the pi registery  from the following link: https://github.com/Hermann-SW/Raspberry_v1_camera_global_external_shutter
 
-If you are interested in a scientific explanation of the process, you can check my thesis and dont hesitate to shoot me a message if you found any error in my thesis. A compressed version is available from the following link: https://github.com/AlzuhiriMohand/AlzuhiriMohand/blob/main/Multi-Modality_Nondestructive__compressed.pdf
+If you are interested in a scientific explanation of the process, you can check section 4.2 of my thesis and don't hesitate to shoot me a message if you found any error in the thesis report. A compressed version is available from the following link: https://github.com/AlzuhiriMohand/AlzuhiriMohand/blob/main/Multi-Modality_Nondestructive__compressed.pdf
 
 Code Excecution
  
@@ -17,6 +17,14 @@ Code Excecution
 sudo ./raspivid_Frex
 
 Enjoy :smiley:
+
+To cite this work; use the following bibliography:
+@phdthesis{alzuhiri2022multi,
+  title={Multi-Modality Nondestructive Evaluation Techniques for Inspection of Plastic and Composite Pipeline Networks},
+  author={Alzuhiri, Mohand},
+  year={2022},
+  school={Michigan State University}
+}
 
 
 
